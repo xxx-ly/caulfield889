@@ -1,0 +1,2908 @@
+.font-family-noto {
+  font-family: "Noto Sans TC", sans-serif, serif !important;
+}
+
+.min12max18 {
+  --min-size: 12;
+  --max-size: 18;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min12max24 {
+  --min-size: 12;
+  --max-size: 24;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max26 {
+  --min-size: 12;
+  --max-size: 26;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max28 {
+  --min-size: 12;
+  --max-size: 28;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max32 {
+  --min-size: 12;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max36 {
+  --min-size: 12;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max40 {
+  --min-size: 12;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max44 {
+  --min-size: 12;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max48 {
+  --min-size: 12;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max52 {
+  --min-size: 12;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max56 {
+  --min-size: 12;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max60 {
+  --min-size: 12;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max64 {
+  --min-size: 12;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max68 {
+  --min-size: 12;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max72 {
+  --min-size: 12;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max76 {
+  --min-size: 12;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max80 {
+  --min-size: 12;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max84 {
+  --min-size: 12;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max88 {
+  --min-size: 12;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max92 {
+  --min-size: 12;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max96 {
+  --min-size: 12;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min12max100 {
+  --min-size: 12;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min14max18 {
+  --min-size: 14;
+  --max-size: 18;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min14max24 {
+  --min-size: 14;
+  --max-size: 24;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max26 {
+  --min-size: 14;
+  --max-size: 26;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max28 {
+  --min-size: 14;
+  --max-size: 28;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max32 {
+  --min-size: 14;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max36 {
+  --min-size: 14;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max40 {
+  --min-size: 14;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max44 {
+  --min-size: 14;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max48 {
+  --min-size: 14;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max52 {
+  --min-size: 14;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max56 {
+  --min-size: 14;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max60 {
+  --min-size: 14;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max64 {
+  --min-size: 14;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max68 {
+  --min-size: 14;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max72 {
+  --min-size: 14;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max76 {
+  --min-size: 14;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max80 {
+  --min-size: 14;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max84 {
+  --min-size: 14;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max88 {
+  --min-size: 14;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max92 {
+  --min-size: 14;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max96 {
+  --min-size: 14;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min14max100 {
+  --min-size: 14;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min16max18 {
+  --min-size: 16;
+  --max-size: 18;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max20 {
+  --min-size: 16;
+  --max-size: 20;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max24 {
+  --min-size: 16;
+  --max-size: 24;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max26 {
+  --min-size: 16;
+  --max-size: 26;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max28 {
+  --min-size: 16;
+  --max-size: 28;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max32 {
+  --min-size: 16;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max36 {
+  --min-size: 16;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max40 {
+  --min-size: 16;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max44 {
+  --min-size: 16;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max48 {
+  --min-size: 16;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max52 {
+  --min-size: 16;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max56 {
+  --min-size: 16;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max60 {
+  --min-size: 16;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max64 {
+  --min-size: 16;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max68 {
+  --min-size: 16;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max72 {
+  --min-size: 16;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max76 {
+  --min-size: 16;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max80 {
+  --min-size: 16;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max84 {
+  --min-size: 16;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max88 {
+  --min-size: 16;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max92 {
+  --min-size: 16;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max96 {
+  --min-size: 16;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min16max100 {
+  --min-size: 16;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min18max24 {
+  --min-size: 18;
+  --max-size: 24;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max26 {
+  --min-size: 18;
+  --max-size: 26;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max28 {
+  --min-size: 18;
+  --max-size: 28;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max32 {
+  --min-size: 18;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max36 {
+  --min-size: 18;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max40 {
+  --min-size: 18;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max44 {
+  --min-size: 18;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max48 {
+  --min-size: 18;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max52 {
+  --min-size: 18;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max56 {
+  --min-size: 18;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max60 {
+  --min-size: 18;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max64 {
+  --min-size: 18;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max68 {
+  --min-size: 18;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max72 {
+  --min-size: 18;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max76 {
+  --min-size: 18;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max80 {
+  --min-size: 18;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max84 {
+  --min-size: 18;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max88 {
+  --min-size: 18;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max92 {
+  --min-size: 18;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max96 {
+  --min-size: 18;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min18max100 {
+  --min-size: 18;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min20max24 {
+  --min-size: 20;
+  --max-size: 24;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max26 {
+  --min-size: 20;
+  --max-size: 26;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max28 {
+  --min-size: 20;
+  --max-size: 28;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max32 {
+  --min-size: 20;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max36 {
+  --min-size: 20;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max40 {
+  --min-size: 20;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max44 {
+  --min-size: 20;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max48 {
+  --min-size: 20;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max52 {
+  --min-size: 20;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max56 {
+  --min-size: 20;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max60 {
+  --min-size: 20;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max64 {
+  --min-size: 20;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max68 {
+  --min-size: 20;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max72 {
+  --min-size: 20;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max76 {
+  --min-size: 20;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max80 {
+  --min-size: 20;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max84 {
+  --min-size: 20;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max88 {
+  --min-size: 20;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max92 {
+  --min-size: 20;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max96 {
+  --min-size: 20;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min20max100 {
+  --min-size: 20;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min24max26 {
+  --min-size: 24;
+  --max-size: 26;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max28 {
+  --min-size: 24;
+  --max-size: 28;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max32 {
+  --min-size: 24;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max36 {
+  --min-size: 24;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max40 {
+  --min-size: 24;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max44 {
+  --min-size: 24;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max48 {
+  --min-size: 24;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max52 {
+  --min-size: 24;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max56 {
+  --min-size: 24;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max60 {
+  --min-size: 24;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max64 {
+  --min-size: 24;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max68 {
+  --min-size: 24;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max72 {
+  --min-size: 24;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max76 {
+  --min-size: 24;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max80 {
+  --min-size: 24;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max84 {
+  --min-size: 24;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max88 {
+  --min-size: 24;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max92 {
+  --min-size: 24;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max96 {
+  --min-size: 24;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min24max100 {
+  --min-size: 24;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min28max32 {
+  --min-size: 28;
+  --max-size: 32;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max36 {
+  --min-size: 28;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max40 {
+  --min-size: 28;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max44 {
+  --min-size: 28;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max48 {
+  --min-size: 28;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max52 {
+  --min-size: 28;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max56 {
+  --min-size: 28;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max60 {
+  --min-size: 28;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max64 {
+  --min-size: 28;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max68 {
+  --min-size: 28;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max72 {
+  --min-size: 28;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max76 {
+  --min-size: 28;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max80 {
+  --min-size: 28;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max84 {
+  --min-size: 28;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max88 {
+  --min-size: 28;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max92 {
+  --min-size: 28;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max96 {
+  --min-size: 28;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min28max100 {
+  --min-size: 28;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min32max36 {
+  --min-size: 32;
+  --max-size: 36;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max40 {
+  --min-size: 32;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max44 {
+  --min-size: 32;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max48 {
+  --min-size: 32;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max52 {
+  --min-size: 32;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max56 {
+  --min-size: 32;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max60 {
+  --min-size: 32;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max64 {
+  --min-size: 32;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max68 {
+  --min-size: 32;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max72 {
+  --min-size: 32;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max76 {
+  --min-size: 32;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max80 {
+  --min-size: 32;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max84 {
+  --min-size: 32;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max88 {
+  --min-size: 32;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max92 {
+  --min-size: 32;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max96 {
+  --min-size: 32;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min32max100 {
+  --min-size: 32;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min36max40 {
+  --min-size: 36;
+  --max-size: 40;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max44 {
+  --min-size: 36;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max48 {
+  --min-size: 36;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max52 {
+  --min-size: 36;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max56 {
+  --min-size: 36;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max60 {
+  --min-size: 36;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max64 {
+  --min-size: 36;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max68 {
+  --min-size: 36;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max72 {
+  --min-size: 36;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max76 {
+  --min-size: 36;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max80 {
+  --min-size: 36;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max84 {
+  --min-size: 36;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max88 {
+  --min-size: 36;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max92 {
+  --min-size: 36;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max96 {
+  --min-size: 36;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min36max100 {
+  --min-size: 36;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min40max44 {
+  --min-size: 40;
+  --max-size: 44;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max48 {
+  --min-size: 40;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max52 {
+  --min-size: 40;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max56 {
+  --min-size: 40;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max60 {
+  --min-size: 40;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max64 {
+  --min-size: 40;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max68 {
+  --min-size: 40;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max72 {
+  --min-size: 40;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max76 {
+  --min-size: 40;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max80 {
+  --min-size: 40;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max84 {
+  --min-size: 40;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max88 {
+  --min-size: 40;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max92 {
+  --min-size: 40;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max96 {
+  --min-size: 40;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min40max100 {
+  --min-size: 40;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min44max48 {
+  --min-size: 44;
+  --max-size: 48;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max52 {
+  --min-size: 44;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max56 {
+  --min-size: 44;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max60 {
+  --min-size: 44;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max64 {
+  --min-size: 44;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max68 {
+  --min-size: 44;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max72 {
+  --min-size: 44;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max76 {
+  --min-size: 44;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max80 {
+  --min-size: 44;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max84 {
+  --min-size: 44;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max88 {
+  --min-size: 44;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max92 {
+  --min-size: 44;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max96 {
+  --min-size: 44;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min44max100 {
+  --min-size: 44;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min48max52 {
+  --min-size: 48;
+  --max-size: 52;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.min48max56 {
+  --min-size: 48;
+  --max-size: 56;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max60 {
+  --min-size: 48;
+  --max-size: 60;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max64 {
+  --min-size: 48;
+  --max-size: 64;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max68 {
+  --min-size: 48;
+  --max-size: 68;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max72 {
+  --min-size: 48;
+  --max-size: 72;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max76 {
+  --min-size: 48;
+  --max-size: 76;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max80 {
+  --min-size: 48;
+  --max-size: 80;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max84 {
+  --min-size: 48;
+  --max-size: 84;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max88 {
+  --min-size: 48;
+  --max-size: 88;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max92 {
+  --min-size: 48;
+  --max-size: 92;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max96 {
+  --min-size: 48;
+  --max-size: 96;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+.min48max100 {
+  --min-size: 48;
+  --max-size: 100;
+  --font-size: calc(
+    (var(--min-size) * 1px) + (var(--max-size) - var(--min-size)) *
+      ((100vw - 320px) / (1920 - 320))
+  );
+  font-size: clamp(
+    var(--min-size) * 1px,
+    var(--font-size),
+    var(--max-size) * 1px
+  );
+}
+
+.letter-spacing-20 {
+  letter-spacing: 0.02em;
+}

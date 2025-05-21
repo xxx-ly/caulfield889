@@ -1,0 +1,359 @@
+.hide {
+  display: none;
+}
+
+/* 分頁 */
+.showPage {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100px;
+}
+
+.showPage > #page p {
+  margin: 0;
+}
+
+.showPage > #page {
+  display: inline-block;
+  height: 30px;
+  margin-top: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.showPage > #page a {
+  /* display:block; */
+  float: left;
+  margin-right: 10px;
+  padding: 0px 10px;
+  height: 35px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 35px;
+  border-radius: 4px;
+}
+
+.showPage > #page a:hover {
+  color: #fff;
+  background: var(--bs-link-hover-color); /**/
+  border: 1px solid var(--bs-link-hover-color);
+}
+
+.showPage > #page a.cur {
+  /* border:none; */
+  background: var(--bs-link-color); /* 這是背景顏色 */
+  color: #fff;
+  border: 1px solid var(--bs-link-color); /* 這是框線顏色 */
+}
+
+.showPage > #page p {
+  float: left;
+  padding: 2px 12px;
+  font-size: 12px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.showPage > #page p.pageRemark {
+  border-style: none;
+  background: none;
+  margin-right: 0px;
+  padding: 4px 0px;
+  color: #666;
+}
+
+.showPage > #page p.pageRemark b {
+  color: red;
+}
+
+.showPage > #page p.pageEllipsis {
+  border-style: none;
+  background: none;
+  padding: 4px 0px;
+  color: #808080;
+}
+
+.showPage_enterprise > #page a {
+  background: #ffffff;
+  color: #000; /**/
+  border: 1px solid #fff; /**/
+}
+
+.showPage_enterprise > #page p {
+  background: #ffffff;
+  color: #000; /**/
+  border: 1px solid #fff; /**/
+}
+
+/* lightbox */
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+
+/*
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+.onInvalidFeedback.show {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: var(--bs-form-invalid-color);
+  margin-bottom: 0;
+}
+
+.onInvalidFeedback:not(.show) {
+  display: none;
+}
+
+.modal[aria-hidden="true"] {
+  display: none !important;
+}
+
+.fancybox__image {
+  max-width: none !important;
+  max-height: none !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.custom-fancybox img {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+/* 手機版側選單內容滑到最底部時會被ios的footerbar擋住 */
+/*@media (max-width: 1024px) {*/
+/*    .m-list-box {*/
+/*        height: calc(100vh - 100px - 2.5rem) !important;*/
+/*    }*/
+/*}*/
+
+/* 展開右上選單，背景還有可能scroll 不能解開 首頁scroll會回彈 */
+/*.side-header-hide body {*/
+/*    max-height: 100vh !important;*/
+/*    overflow: hidden !important;*/
+/*}*/
+
+/* 底部警語圖片就算display:none還是會有高度 */
+/*.warning-bar {*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    z-index: 99;*/
+/*    height: 10vh;*/
+/*}*/
+
+/*.warning-bar .stop-svg img {*/
+/*    width: 100vw;*/
+/*    height: auto;*/
+/*    display: none; !* 預設全部隱藏 *!*/
+/*}*/
+
+/*!* 桌機 > 1024px *!*/
+/*@media (min-width: 1025px) {*/
+/*    .warning-bar .stop-svg .desktop-img {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
+
+/*!* 平板：914px - 1024px *!*/
+/*@media (min-width: 914px) and (max-width: 1024px) {*/
+/*    .warning-bar .stop-svg .tablet-img {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
+
+/*!* 大手機：431px - 913px *!*/
+/*@media (min-width: 431px) and (max-width: 913px) {*/
+/*    .warning-bar .stop-svg .tablet-img {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
+
+/*!* 小手機 <= 430px *!*/
+/*@media (max-width: 430px) {*/
+/*    .warning-bar .stop-svg .mobile-img {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
+
+/* Footer會有點被警語圖片遮住 */
+footer {
+  padding-bottom: 10vh !important; /* 跟 .warning-bar 的高度一樣 */
+}
+
+#translateMobile {
+  background: transparent;
+  color: var(--primary);
+  border: none;
+}
+
+/* 手機版搜尋框 (預設隱藏) */
+.mobile-search-container {
+  display: none;
+  position: absolute;
+  top: 100%; /* 讓搜尋框顯示在主選單下方 */
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8); /* 白色，80% 透明度 */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px); /* 背景模糊效果 */
+  z-index: 999;
+}
+
+/* 手機版輸入框 */
+.mobile-search-container .input-group > input,
+.mobile-search-container .input-group > button {
+  background: rgba(255, 255, 255, 0.5); /* 更透明的輸入框 */
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  padding: 8px;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+/* 讓 placeholder 也有點透明 */
+.mobile-search-container .input-group > input::placeholder {
+  color: rgba(100, 100, 100, 0.7);
+}
+
+/* daterangepicker 按鈕 */
+.daterangepicker .ranges li.active,
+.daterangepicker .ranges li.active:hover {
+  background-color: var(--primary-200);
+  color: #fff;
+  border-radius: 0;
+}
+
+/* 產品內頁 酒莊圖片 */
+.winery-intro .photo-box-inner {
+  min-height: 200px !important;
+}
+
+.winery-intro .photo-box-inner .image {
+  background-size: unset !important;
+}
+
+/* 內文文字顏色 */
+.article-contnet p {
+  color: #303030 !important;
+}
+
+/* 文字反白顏色 */
+::selection {
+  color: #eae8e4 !important;
+}
+
+::-moz-selection {
+  color: #eae8e4 !important;
+}
+
+.mobile-bg-image {
+  width: 100%;
+  height: 500px; /* 預設高度 */
+  background-size: contain; /* 確保完整顯示 */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.mobile-bg-pointer {
+  width: 100%;
+  height: 100px; /* 預設高度 */
+  background-size: contain; /* 確保完整顯示 */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* 手機版 Header Logo尺寸 */
+  .m-logo img {
+    max-width: 130px !important;
+  }
+
+  /* 手機版 產品圖片顯示比例 */
+  .mobile-half-screen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-half-screen > div {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* 讓圖片區使用 background-image */
+  .mobile-half-screen .mobile-bg-image {
+    height: 40vh; /* 讓圖片佔滿一半畫面 */
+    background-size: contain; /* 讓圖片完整顯示，不被裁切 */
+    background-position: center center; /* 置中對齊 */
+    background-repeat: no-repeat; /* 避免圖片重複 */
+  }
+
+  .mobile-half-screen .mobile-bg-pointer {
+    height: 10vh;
+    background-size: contain; /* 讓圖片完整顯示，不被裁切 */
+    background-position: center center; /* 置中對齊 */
+    background-repeat: no-repeat; /* 避免圖片重複 */
+  }
+
+  .product-detail-area h1 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .detail-info.price .sale {
+    font-size: 1.4rem;
+  }
+
+  .product-detail-area .price .sale + .amount {
+    font-size: 1rem;
+  }
+}
+
+/* 了解更多按鈕 */
+.search-more {
+  font-size: 1.1rem;
+}
