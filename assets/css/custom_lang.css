@@ -220,6 +220,6 @@ body {
 }
 
 .thumb-info.thumb-info-swap-content:hover .thumb-info-swap-content-wrapper> :nth-child(2) {
-  transform: translateY(65%);
+  transform: translateY(55%);
   opacity: 1;
 }
